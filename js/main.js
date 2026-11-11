@@ -4,7 +4,7 @@ import { dataFetch } from "./api.js";
 dateAndTime();
 try {
   const data = await dataFetch();
-  console.log(data);
+  console.log("success", data);
 } catch (error) {
-  console.error("failed", error);
+  console.error("failed", error.message);
 }
