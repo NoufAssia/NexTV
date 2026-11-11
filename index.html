@@ -64,6 +64,8 @@
         <p class="mb-[-3.5px]">Live TV</p> -->
       </div>
     </header>
+
+
     <div id="list-container" class="flex flex-row w-full h-screen text-white">
       <aside class="w-72 flex flex-col shadow-[3px_-3px_16px_0_rgba(0,0,0,0.2)] p-4 shrink-0">
         <div
@@ -76,10 +78,19 @@
           />
 
         </div>
-        <div id="listCahnnel" class="flex-1 overflow-y-auto"></div>
+
+        <!-- loading state -->
+
+        <div id="loading" class="flex flex-col items-center justify-center gap-4 pt-10">
+            <div class="w-8 h-8 rounded-full border-4 border-white/20 border-t-cyan-400 border-r-purple-500 animate-spin"></div>
+            <div class="text-sm text-white/70">Loading channels...</div>
+        </div>
+        <div id="listCahnnel" class="h-full overflow-y-auto"></div>
         <!-- <div class="flex-end border border-t border-white/50 w-full ">
             <p>Favorites</p>
         </div> -->
+
+        <!-- error state -->
       </aside>
 
       <div class="flex-1 flex flex-col">
