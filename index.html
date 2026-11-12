@@ -15,7 +15,7 @@
     class="min-h-screen mx-auto max-w-[1600px] font-['Inter',_sans-serif] bg-linear-to-bl from-[#632496] via-[#090979] to-[#07070D]"
   >
     <header
-      class="grid grid-cols-2 items-center md:grid-cols-[auto_auto_auto_auto] gap-4 px-3 py-3 md:gap-6 md:px-6 md:py-4 text-sm text-white"
+      class="grid grid-cols-2 items-center md:grid-cols-[auto_auto_auto] gap-4 px-3 py-3 md:gap-6 md:px-6 md:py-4 text-sm text-white"
     >
       <div class="flex items-center gap-1  justify-self-start">
         <img src="./assets/nextv-logo.png" alt="nextv logo" class="w-15" />
@@ -36,20 +36,7 @@
         <img src="./assets/bell.png" alt="bell icon" class="w-6" />
         <img src="./assets/dotss.png" alt="settings icon" class="w-4" />
       </div>
-            <div
-        class="col-span-2 sm:col-span-1 md:col-span-1 flex max-w-xl items-center gap-2 border shadow-md border-[0.3px] rounded-2xl border-white/30 p-1 px-2 bg-white/[0.03]"
-      >
-        <img
-          src="./assets/search-icon.png"
-          alt="search icon"
-          class="w-6 shrink-0"
-        />
-        <input
-          type="search"
-          id="search"
-          class="w-full min-w-0 border-none focus:outline-none text-white"
-        />
-      </div>
+
       <div
         class="date-time col-span-2 sm:col-span-1 md:col-span-1 flex justify-center gap-3 p-1.5 px-2 "
       >
@@ -66,8 +53,8 @@
     </header>
 
 
-    <div id="list-container" class="flex flex-row w-full h-screen text-white">
-      <aside class="w-72 flex flex-col shadow-[3px_-3px_16px_0_rgba(0,0,0,0.2)] p-4 shrink-0">
+    <div id="list-container" class="flex md:flex-row w-full h-screen text-white flex-col">
+      <aside class="w-full md:w-72 flex flex-col  shadow-[3px_-3px_16px_0_rgba(0,0,0,0.2)] p-4 shrink-0">
         <div
           class=" sm:col-span-1 md:col-span-1 flex max-w-xl items-center gap-2  p-1 px-2"
         >
@@ -78,19 +65,45 @@
           />
 
         </div>
+            <div
+        class=" flex max-w-xl items-center gap-2 border shadow-md border-[0.3px] rounded-2xl border-white/30 p-1 px-2 mt-5 bg-white/[0.03]"
+      >
+        <img
+          src="./assets/search-icon.png"
+          alt="search icon"
+          class="w-6 shrink-0"
+        />
+        <input
+          type="search"
+          id="search"
+          class="w-full min-w-0 border-none focus:outline-none text-white"
+        />
+      </div>
 
         <!-- loading state -->
 
-        <div id="loading" class="flex flex-col items-center justify-center gap-4 pt-10">
+        <div id="loading" class="flex flex-col items-center justify-center gap-4 pt-10 h-30">
             <div class="w-8 h-8 rounded-full border-4 border-white/20 border-t-cyan-400 border-r-purple-500 animate-spin"></div>
             <div class="text-sm text-white/70">Loading channels...</div>
         </div>
+
+         <!-- error state -->
+
+             <div id ="error-div" class="hidden flex flex-col items-center justify-center gap-4 pt-10">
+            <p class="text-red-400 text-sm ">Unable to load channels</p>
+            <p id="error-message" class="text-white/70 text-sm items-center"></p>
+            <button id="retry-btn" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-purple-500 hover:bg-cyan-600 text-white text-sm">Retry ↻</button>
+        </div>
+
+        
         <div id="listCahnnel" class="h-full overflow-y-auto"></div>
         <!-- <div class="flex-end border border-t border-white/50 w-full ">
             <p>Favorites</p>
         </div> -->
 
-        <!-- error state -->
+       
+
+   
       </aside>
 
       <div class="flex-1 flex flex-col">
