@@ -1,5 +1,6 @@
-import { dateAndTime } from "./ui.Js";
-
+import { dateAndTime } from "./date.js";
+import { filterAndSearch } from "./category.js";
+import { showCahnnels } from "./channels.js";
 import { dataFetch } from "./api.js";
 dateAndTime();
 
@@ -9,6 +10,8 @@ const errorMsg = document.querySelector("#error-message");
 async function manageError() {
   try {
     const data = await dataFetch();
+    filterAndSearch(data);
+    showCahnnels(data);
     console.log("success", data);
   } catch (error) {
     console.error("failed", error.message);
@@ -19,3 +22,4 @@ async function manageError() {
   }
 }
 manageError();
+
