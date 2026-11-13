@@ -19,9 +19,9 @@ console.log("CHANNELS:", channelsDiv);
 export function showImg(data) {
   channelsDiv.addEventListener("click", (event) => {
     const click = event.target.closest(".channel");
-    const clickedChannel = data.find((channel) =>{
-        return channel.id === click.dataset.id;
-    })
+    const clickedChannel = data.find((channel) => {
+      return channel.id === click.dataset.id;
+    });
     if (click) {
       defImg.classList.add("hidden");
 
@@ -36,7 +36,7 @@ export function showImg(data) {
       img.src = click.dataset.preview;
       img.alt = `${click.dataset.name} preview`;
       channelInfos.textContent = `${click.dataset.number} ${click.dataset.name}`;
-      console.log( "test" + channelInfos);
+      console.log("test" + channelInfos);
       let epg = clickedChannel.epg;
       currentProgram.classList.remove("hidden");
       epgCp.textContent = epg.currentProgram;

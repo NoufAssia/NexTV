@@ -9,6 +9,7 @@ const loading = document.querySelector("#loading");
 const errorDiv = document.querySelector("#error-div");
 const errorMsg = document.querySelector("#error-message");
 const retryBtn = document.querySelector("#retry-btn");
+
 async function manageError() {
   try {
     const data = await dataFetch();
@@ -20,9 +21,9 @@ async function manageError() {
     console.error("failed", error.message);
     errorMsg.textContent = error.message;
     errorDiv.classList.remove("hidden");
-    retryBtn.addEventListener("click", ()=>{
+    retryBtn.addEventListener("click", () => {
       window.location.reload();
-    })
+    });
   } finally {
     loading.hidden = true;
   }
