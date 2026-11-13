@@ -160,22 +160,6 @@
     }
   },
   {
-    "id": "11",
-    "channelNumber": "1011",
-    "name": "FR - CINEMA PREMIER",
-    "category": "CINEMA",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/cinema-premier-fr.png",
-    "previewImage": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/cinema-premier-fr.png",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    "isLive": true,
-    "epg": {
-      "currentProgram": "Mission impossible",
-      "startTime": "21:00",
-      "endTime": "23:00",
-      "progressPercentage": 15
-    }
-  },
-  {
     "id": "12",
     "channelNumber": "1012",
     "name": "FR - ACTION FHD",
@@ -189,38 +173,6 @@
       "startTime": "20:45",
       "endTime": "22:40",
       "progressPercentage": 50
-    }
-  },
-  {
-    "id": "13",
-    "channelNumber": "1020",
-    "name": "FR - BFM TV FHD",
-    "category": "ACTUALITES",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bfmtv-fr.png",
-    "previewImage": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bfmtv-fr.png",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    "isLive": true,
-    "epg": {
-      "currentProgram": "Le direct info",
-      "startTime": "20:00",
-      "endTime": "22:00",
-      "progressPercentage": 80
-    }
-  },
-  {
-    "id": "14",
-    "channelNumber": "1021",
-    "name": "FR - CNEWS FHD",
-    "category": "ACTUALITES",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/cnews-fr.png",
-    "previewImage": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/cnews-fr.png",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    "isLive": true,
-    "epg": {
-      "currentProgram": "L'heure des pros",
-      "startTime": "20:30",
-      "endTime": "21:45",
-      "progressPercentage": 65
     }
   },
   {
@@ -256,22 +208,6 @@
     }
   },
   {
-    "id": "17",
-    "channelNumber": "1030",
-    "name": "FR - DISCOVERY CHANNEL FHD",
-    "category": "DOCUMENTAIRE",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/discovery-channel-fr.png",
-    "previewImage": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/discovery-channel-fr.png",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    "isLive": true,
-    "epg": {
-      "currentProgram": "Planète Terre",
-      "startTime": "20:50",
-      "endTime": "21:45",
-      "progressPercentage": 65
-    }
-  },
-  {
     "id": "18",
     "channelNumber": "1031",
     "name": "FR - TLC FHD",
@@ -304,22 +240,6 @@
     }
   },
   {
-    "id": "20",
-    "channelNumber": "1033",
-    "name": "FR - NATIONAL GEOGRAPHIC",
-    "category": "DOCUMENTAIRE",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/national-geographic-fr.png",
-    "previewImage": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/national-geographic-fr.png",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    "isLive": true,
-    "epg": {
-      "currentProgram": "L'univers mystérieux",
-      "startTime": "20:45",
-      "endTime": "22:15",
-      "progressPercentage": 55
-    }
-  },
-  {
     "id": "21",
     "channelNumber": "1034",
     "name": "FR - PLANETE+",
@@ -333,38 +253,6 @@
       "startTime": "21:00",
       "endTime": "22:30",
       "progressPercentage": 30
-    }
-  },
-  {
-    "id": "22",
-    "channelNumber": "1040",
-    "name": "FR - BEIN SPORTS 1",
-    "category": "SPORT",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bein-sports-1-fr.png",
-    "previewImage": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bein-sports-1-fr.png",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    "isLive": true,
-    "epg": {
-      "currentProgram": "Football en direct",
-      "startTime": "20:00",
-      "endTime": "22:00",
-      "progressPercentage": 75
-    }
-  },
-  {
-    "id": "23",
-    "channelNumber": "1041",
-    "name": "FR - BEIN SPORTS 2",
-    "category": "SPORT",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bein-sports-2-fr.png",
-    "previewImage": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/bein-sports-2-fr.png",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    "isLive": true,
-    "epg": {
-      "currentProgram": "Tennis Masters",
-      "startTime": "19:30",
-      "endTime": "21:30",
-      "progressPercentage": 85
     }
   },
   {
@@ -544,22 +432,6 @@
     }
   },
   {
-    "id": "35",
-    "channelNumber": "1064",
-    "name": "FR - VOYAGE",
-    "category": "DOCUMENTAIRE",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/voyage-fr.png",
-    "previewImage": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/voyage-fr.png",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    "isLive": true,
-    "epg": {
-      "currentProgram": "Les plus beaux paysages",
-      "startTime": "20:30",
-      "endTime": "22:00",
-      "progressPercentage": 65
-    }
-  },
-  {
     "id": "36",
     "channelNumber": "1065",
     "name": "FR - USHUAIA TV",
@@ -573,22 +445,6 @@
       "startTime": "21:00",
       "endTime": "22:00",
       "progressPercentage": 40
-    }
-  },
-  {
-    "id": "37",
-    "channelNumber": "1070",
-    "name": "FR - MTV",
-    "category": "MUSIQUE",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/mtv-fr.png",
-    "previewImage": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/mtv-fr.png",
-    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    "isLive": true,
-    "epg": {
-      "currentProgram": "Music Hits",
-      "startTime": "20:00",
-      "endTime": "21:30",
-      "progressPercentage": 70
     }
   },
   {
