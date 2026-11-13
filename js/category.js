@@ -25,7 +25,7 @@ function categoryModal(categories, channels) {
     const button = document.createElement("button");
     button.textContent = category.toLowerCase();
     button.className =
-      "block w-full text-start border-purple-500/80 bg-white/[0.03] hover:bg-purple-500 pl-2";
+      "block w-full text-start rounded-md border-purple-500/80 bg-white/[0.03] hover:bg-purple-500 pl-2";
     button.dataset.category = category;
     categoryPopUp.append(button);
   });
