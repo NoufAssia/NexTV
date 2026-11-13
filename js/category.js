@@ -91,7 +91,9 @@ function search() {
     }
     searchOutput.forEach((channel) => {
       if (
-        channel.name.toLowerCase().includes(searchInput.value.toLowerCase().trim()) ||
+        channel.name
+          .toLowerCase()
+          .includes(searchInput.value.toLowerCase().trim()) ||
         String(channel.channelNumber).includes(searchInput.value.trim())
       ) {
         searchResult.push(channel);
