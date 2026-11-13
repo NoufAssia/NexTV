@@ -5,6 +5,7 @@ export function showCahnnels(data) {
 
   if (data.length === 0) {
     channelsDiv.textContent = "No channels found.";
+    channelsDiv.classList.add(text-white/70);
     return;
   }
 
