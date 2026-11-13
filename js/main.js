@@ -1,5 +1,5 @@
 import { dateAndTime } from "./date.js";
-import { filterAndSearch } from "./category.js";
+import { showCategories } from "./category.js";
 import { showCahnnels } from "./channels.js";
 import { dataFetch } from "./api.js";
 import { showImg } from "./preview.js";
@@ -12,7 +12,7 @@ const retryBtn = document.querySelector("#retry-btn");
 async function manageError() {
   try {
     const data = await dataFetch();
-    filterAndSearch(data);
+    showCategories(data);
     showCahnnels(data);
     showImg(data);
     console.log("success", data);

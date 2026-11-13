@@ -28,7 +28,7 @@ export function showImg(data) {
         img = document.createElement("img");
         img.id = "channel-preview";
         img.className =
-          "rounded-3xl shadow-[-1px_-1px_16px_16px_rgba(0,0,0,0.35)]";
+          "rounded-3xl w-full h-full object-cover shadow-[-1px_-1px_16px_16px_rgba(0,0,0,0.35)]";
         hostDiv.append(img);
       }
       img.src = click.dataset.preview;
@@ -38,11 +38,11 @@ export function showImg(data) {
       currentProgram.classList.remove("hidden");
       epgCp.textContent = epg.currentProgram;
       startTime.classList.remove("hidden");
-      epgSt.textContent = `Start time ${epg.startTime}`;
+      epgSt.textContent = epg.startTime;
       endTime.classList.remove("hidden");
-      epgEt.textContent = `End time ${epg.endTime}`;
+      epgEt.textContent = epg.endTime;
       progressPercentage.classList.remove("hidden");
-      epgPp.textContent = `Progress percentage ${epg.progressPercentage}`;
+      epgPp.textContent = epg.progressPercentage;
     }
   });
 }
