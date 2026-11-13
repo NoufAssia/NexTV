@@ -6,7 +6,7 @@ export async function dataFetch() {
     );
 
     // const response = new Response(null, {
-    //   status: 403,
+    //   status: 500,
     //   statusText: "Internal  Error",
     // });
     console.log("http status", response.status);
