@@ -122,11 +122,12 @@
 
         <section
           id="play"
-          class="flex-1 flex items-center justify-center p-6  shadow-[0_-3px_16px_0_rgba(0,0,0,0.2)] "
+          class="flex-1 flex flex-col items-center justify-center p-6  shadow-[0_-3px_16px_0_rgba(0,0,0,0.2)] "
         >
         <div id="host-div"  class="w-full aspect-[20/10] min-w-0 min-h-0 border border-sm border-black rounded-3xl ">
        <img id="default-img" src="./assets/image.png" alt="default-img" class=" rounded-3xl w-full h-full object-cover shadow-[-1px_-1px_16px_16px_rgba(0,0,0,0.35)]">
       </div>
+      <div id="channel-infos" class="pt-4 text-white/40"></div>
     </section>
 
     <!-- epg -->
@@ -136,19 +137,19 @@
         >
         <div id="currentProgram" class="hidden w-full p-4 text-md  border rounded-2xl  shadow-md border-[0.3px] border-purple-500/80 bg-white/[0.03] hover:bg-white/10">
           <p class="text-purple-500/80 font-bold text-center">Current program</p>
-          <p id="epgCp" class="text-center text-sm"></p>
+          <p id="epgCp" class="text-center text-sm text-white/40"></p>
         </div>
         <div id="startTime" class="hidden w-full p-4 text-md border rounded-2xl  shadow-md border-[0.3px] border-purple-500/80 bg-white/[0.03] hover:bg-white/10">
           <p class="text-purple-500/80 font-bold text-center">Start time</p>
-          <p id="epgSt" class="text-center text-sm"></p>
+          <p id="epgSt" class="text-center text-sm text-white/40"></p>
         </div>
         <div id="endTime" class="hidden w-full p-4 border rounded-2xl  text-md  shadow-md border-[0.3px] border-purple-500/80 bg-white/[0.03] hover:bg-white/10">
           <p class="text-purple-500/80 font-bold text-center">End time</p>
-          <p id="epgEt" class="text-center text-sm"></p>
+          <p id="epgEt" class="text-center text-sm text-white/40"></p>
         </div>
         <div id="progressPercentage" class="hidden w-full p-4  text-md border rounded-2xl  shadow-md border-[0.3px] border-purple-500/80 bg-white/[0.03] hover:bg-white/10">
           <p class="text-purple-500/80 font-bold text-center ">Progress percentage</p>
-          <p id="epgPp" class="text-center text-sm"></p>
+          <p id="epgPp" class="text-center text-sm text-white/40"></p>
         </div>
       </section>
       </div>

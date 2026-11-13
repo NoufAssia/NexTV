@@ -11,6 +11,8 @@ const epgSt = document.querySelector("#epgSt");
 const epgEt = document.querySelector("#epgEt");
 const epgPp = document.querySelector("#epgPp");
 
+const channelInfos = document.querySelector("#channel-infos");
+
 console.log("HOST:", hostDiv);
 console.log("DEFAULT:", defImg);
 console.log("CHANNELS:", channelsDiv);
@@ -33,7 +35,8 @@ export function showImg(data) {
       }
       img.src = click.dataset.preview;
       img.alt = `${click.dataset.name} preview`;
-
+      channelInfos.textContent = `${click.dataset.number} ${click.dataset.name}`;
+      console.log( "test" + channelInfos);
       let epg = clickedChannel.epg;
       currentProgram.classList.remove("hidden");
       epgCp.textContent = epg.currentProgram;
