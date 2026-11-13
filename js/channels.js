@@ -15,6 +15,7 @@ export function showCahnnels(data) {
     channelDiv.dataset.preview = channel.logo;
     channelDiv.dataset.name = channel.name;
     channelDiv.dataset.id = channel.id;
+    channelDiv.dataset.number = channel.channelNumber;
     const number = document.createElement("span");
     number.textContent = channel.channelNumber;
 
